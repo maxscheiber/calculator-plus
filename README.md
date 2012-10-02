@@ -25,3 +25,9 @@ The following features were not completed by the time the homework was due. They
 Parentheses <br />
 Logarithm <br />
 Delete button (DEL) <br />
+
+Sources
+=======
+Generally used Stack Overflow / Google / Apple documentation for little questions.
+
+Reference on RPN was found <a href="http://en.wikipedia.org/wiki/Shunting-yard_algorithm">on Wikipedia</a> and <a href="http://learnyouahaskell.com/functionally-solving-problems">on Learn you a Haskell</a>.
