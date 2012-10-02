@@ -368,6 +368,10 @@ BOOL decimalUsed = false; //ensures we do not use multiple deciaml points
         return;
     }
     
+    if ([self isOperator: currentOp]) {
+        return;
+    }
+    
     self.infixEqn.text = [self.infixEqn.text stringByAppendingString: @"="];
     [output addObject: currentNumber];
     currentOp = @"=";
